@@ -25,9 +25,9 @@ Before using the API, ensure you have the following:
 npm install
 ```
 3. Run the Client:
-   ```bash
+```bash
    node index.js
-``
+```
 ---
 
 ## Example Usage
