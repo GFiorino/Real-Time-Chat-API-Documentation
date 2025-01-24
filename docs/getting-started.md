@@ -21,13 +21,13 @@ Before using the API, ensure you have the following:
    cd chat-api-client
    ```
 2. Install Dependencies:
-```bash
-npm install
-```
+   ```bash
+   npm install
+   ```
 3. Run the Client:
-```bash
-node index.js
-```
+   ```bash
+   node index.js
+   ```
 ---
 
 ## Example Usage
