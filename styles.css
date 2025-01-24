@@ -15,47 +15,67 @@ header {
     background-color: #0056b3;
     color: #fff;
     text-align: center;
-    padding: 15px 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
     margin: 0;
-    font-size: 1.6rem;
+    font-size: 2rem;
 }
 
 header p {
-    margin: 8px 0 0;
-    font-size: 1rem;
+    margin: 10px 0 0;
+    font-size: 1.2rem;
+    color: #d4e1f5;
 }
 
-/* Main Content */
+/* Main Container */
 .main-container {
-    width: 72%;
-    max-width: 880px;
-    margin: 0 auto;
-    padding: 16px 0;
-    flex: 1;
+    max-width: 960px;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Links Section */
 .introduction ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 .introduction ul li {
-    margin: 8px 0;
+    margin: 12px 0;
 }
 
 .introduction ul li a {
     color: #0056b3;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s ease;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: all 0.3s ease;
 }
 
 .introduction ul li a:hover {
-    color: #002c70;
+    color: #fff;
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Hero Image */
+.hero-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Footer */
@@ -63,23 +83,19 @@ header p {
     text-align: center;
     background-color: #0056b3;
     color: #ffffff;
-    padding: 8px 0;
-    margin-top: 24px;
+    padding: 15px 0;
+    margin-top: auto;
     font-size: 0.9rem;
+    border-top: 4px solid #004080;
 }
 
 .footer a {
     color: #ffffff;
-    text-decoration: none;
-    font-weight: bold;
-}
-.hero-image {
-    display: block;
-    max-width: 100%;
-    margin: 20px auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-.footer a:hover {
     text-decoration: underline;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #ffdd57;
 }
