@@ -26,7 +26,7 @@ npm install
 ```
 3. Run the Client:
 ```bash
-   node index.js
+node index.js
 ```
 ---
 
