@@ -56,7 +56,7 @@ Explore the live version of the documentation here:
    cd Real-Time-Chat-API-Documentation
    ```
 2. Open index.html in you browser to see the live documentation locally.
-3. 
+ 
    ---
    
 - **Email**: [gianpierofiorino@icloud.com](mailto:gianpierofiorino@icloud.com)
