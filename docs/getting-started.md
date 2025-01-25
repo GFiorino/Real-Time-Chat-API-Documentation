@@ -8,7 +8,7 @@ Welcome to the Real-Time Chat API! This guide will help you set up and integrate
 
 Below is a visual representation of the integration process:
 
-![Integration Flow Diagram](/images/integration-flow-diagram.png)
+![Integration Flow Diagram](https://github.com/GFiorino/Real-Time-Chat-API-Documentation/blob/main/images/Integration-flow-diagram.png?raw=true)
 
 ---
 
