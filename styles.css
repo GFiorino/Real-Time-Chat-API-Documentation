@@ -11,127 +11,110 @@ body {
 }
 
 /* Header */
-.main-header {
+header {
     background-color: #0056b3;
-    color: white;
+    color: #fff;
     text-align: center;
-    padding: 20px;
+    padding: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.main-header h1 {
+header h1 {
     margin: 0;
     font-size: 2rem;
 }
 
-.main-header p {
-    margin: 10px 0 0;
-    font-size: 1.2rem;
+header p {
+    margin: 5px 0 0;
+    font-size: 1rem;
     color: #d4e1f5;
 }
 
-/* Side Menu */
-.side-menu {
+/* Vertical Menu */
+.vertical-menu {
     position: fixed;
-    top: 100px;
-    left: 20px;
-    width: 200px;
-}
-
-.side-menu ul {
+    left: 5%;
+    top: 20%;
+    transform: translateY(-50%);
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.side-menu ul li {
-    margin: 10px 0;
+.vertical-menu li {
+    margin-bottom: 15px;
 }
 
-.side-menu ul li a {
-    text-decoration: none;
+.vertical-menu li a {
     color: #0056b3;
+    text-decoration: none;
     font-weight: bold;
+    font-size: 1rem;
     transition: color 0.3s ease;
 }
 
-.side-menu ul li a:hover {
-    color: #003d80;
+.vertical-menu li a:hover {
+    color: #002c70;
 }
 
-.side-menu ul li a.active {
-    color: #4caf50; /* Green for the active page */
-    font-weight: bold;
-}
-
-/* Main Content */
-.main-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    margin-left: 220px; /* Adjust for side menu */
-    padding: 20px;
+.vertical-menu li a.active {
+    color: #00a000; /* Green for the current active page */
 }
 
 /* Card */
 .card {
+    max-width: 900px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
     display: flex;
     align-items: center;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 70%;
-    padding: 20px;
+    gap: 20px;
 }
 
-.card-image {
-    flex: 1;
+.card img {
     max-width: 150px;
     height: auto;
     border-radius: 10px;
-    margin-right: 20px;
-    object-fit: contain;
-    background: none; /* No shadow for blending */
+    object-fit: cover;
+    box-shadow: none; /* Removed shadow for blending */
 }
 
 .card-content {
-    flex: 2;
+    flex: 1;
 }
 
 .card-content h2 {
+    margin: 0;
     color: #0056b3;
-    margin: 0 0 10px;
+    font-size: 1.6rem;
 }
 
-.card-content h3 {
-    margin-top: 20px;
-    font-size: 1.2rem;
-    color: #333;
+.card-content p {
+    margin: 10px 0;
+    font-size: 1rem;
+    line-height: 1.6;
 }
 
 .card-content ul {
-    list-style-type: disc;
-    margin: 10px 0 0 20px;
     padding: 0;
+    list-style: disc inside;
 }
 
-.card-content ul li {
-    margin-bottom: 5px;
-}
-
-/* Footer */
 .footer {
     text-align: center;
     background-color: #0056b3;
-    color: white;
-    padding: 10px 0;
+    color: #fff;
+    padding: 15px;
     margin-top: auto;
+    font-size: 0.9rem;
 }
 
 .footer a {
-    text-decoration: none;
-    color: white;
+    color: #fff;
+    text-decoration: underline;
     font-weight: bold;
     transition: color 0.3s ease;
 }
