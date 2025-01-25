@@ -115,3 +115,8 @@ footer a {
     color: #ffdd57;
     text-decoration: underline;
 }
+.horizontal-menu a.active {
+    color: green;
+    font-weight: bold;
+    text-decoration: underline;
+}
