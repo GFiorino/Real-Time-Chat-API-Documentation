@@ -145,3 +145,55 @@ header p {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+/* Card Layout */
+.card {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 900px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 35%; /* Adjust width for the image */
+    max-width: 200px; /* Limit the size for responsiveness */
+    border-radius: 10px;
+    margin-right: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+    flex: 1; /* Takes the remaining space */
+}
+
+.card-content h2 {
+    color: #0056b3;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.card-content a {
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 1px solid #0056b3;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.card-content a:hover {
+    color: #fff;
+    background-color: #0056b3;
+}
