@@ -1,14 +1,15 @@
 <header>
- <p>Simplifying API Integration Through Clear and User-Friendly Documentation</p>
+    <h1>Real-Time Chat API Documentation</h1>
+    <p>Simplifying API Integration Through Clear and User-Friendly Documentation</p>
 </header>
- <nav class="horizontal-menu">
-    <a href="index.html" >Introduction</a>
-    <a href="docs/getting-started.html"class="active">Getting Started</a>
-    <a href="docs/endpoints.html">Endpoints</a>
+<nav class="horizontal-menu">
+    <a href="index.html">Introduction</a>
+    <a href="docs/getting-started.html">Getting Started</a>
+    <a href="docs/endpoints.html" class="active">Endpoints</a>
     <a href="examples/integration-examples.html">Integration Examples</a>
     <a href="docs/troubleshooting.html">Troubleshooting</a>
-</nav># Getting Started
-
+</nav>
+<link rel="stylesheet" href="../styles.css">
 Welcome to the Real-Time Chat API! This guide will help you set up and integrate the API into your project quickly.
 
 ---
