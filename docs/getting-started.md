@@ -1,57 +1,66 @@
-<header>
-    <h1>Real-Time Chat API Documentation</h1>
-    <p>Simplifying API Integration Through Clear and User-Friendly Documentation</p>
-</header>
-<nav class="horizontal-menu">
-    <a href="index.html">Introduction</a>
-    <a href="docs/getting-started.html">Getting Started</a>
-    <a href="docs/endpoints.html" class="active">Endpoints</a>
-    <a href="examples/integration-examples.html">Integration Examples</a>
-    <a href="docs/troubleshooting.html">Troubleshooting</a>
-</nav>
-<link rel="stylesheet" href="../styles.css">
-Welcome to the Real-Time Chat API! This guide will help you set up and integrate the API into your project quickly.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getting Started - Real-Time Chat API Documentation</title>
+    <link rel="stylesheet" href="../styles.css"> <!-- Correct path to the CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Real-Time Chat API Documentation</h1>
+        <p>Simplifying API Integration Through Clear and User-Friendly Documentation</p>
+    </header>
 
----
+    <!-- Navigation Menu -->
+    <nav class="horizontal-menu">
+        <a href="../index.html">Introduction</a>
+        <a href="getting-started.html" class="active">Getting Started</a>
+        <a href="endpoints.html">Endpoints</a>
+        <a href="../examples/integration-examples.html">Integration Examples</a>
+        <a href="troubleshooting.html">Troubleshooting</a>
+    </nav>
 
-## Integration Flow
+    <!-- Main Content -->
+    <main class="content">
+        <h2>Getting Started</h2>
+        <p>Welcome to the Real-Time Chat API! This guide will help you set up and integrate the API into your project quickly.</p>
 
-Below is a visual representation of the integration process:
+        <hr>
 
-![Integration Flow Diagram](https://github.com/GFiorino/Real-Time-Chat-API-Documentation/blob/main/images/Integration-flow-diagram.png?raw=true)
+        <h3>Integration Flow</h3>
+        <p>Below is a visual representation of the integration process:</p>
+        <img src="../images/Integration-flow-diagram.png" alt="Integration Flow Diagram" style="max-width: 100%; height: auto;">
 
----
+        <hr>
 
-## Prerequisites
-Before using the API, ensure you have the following:
-1. **API Key and Access Token**:
-   - Obtain your API credentials by signing up at [Chat API Developer Portal](https://example.com).
-2. **Development Environment**:
-   - Node.js (v14+ recommended).
-   - A modern browser or Postman for testing endpoints.
+        <h3>Prerequisites</h3>
+        <ul>
+            <li><strong>API Key and Access Token:</strong> Obtain your API credentials by signing up at <a href="https://example.com">Chat API Developer Portal</a>.</li>
+            <li><strong>Development Environment:</strong> Node.js (v14+ recommended) and a modern browser or Postman for testing endpoints.</li>
+        </ul>
 
----
+        <hr>
 
-## Installation
-1. Clone the API client repository:
-   ```bash
-   git clone https://github.com/your-repository-name/chat-api-client.git
-   cd chat-api-client
-   ```
-2. Install Dependencies:
-   ```bash
-   npm install
-   ```
-3. Run the Client:
-   ```bash
-   node index.js
-   ```
----
+        <h3>Installation</h3>
+        <ol>
+            <li>Clone the API client repository:
+                <pre><code>git clone https://github.com/your-repository-name/chat-api-client.git
+cd chat-api-client</code></pre>
+            </li>
+            <li>Install Dependencies:
+                <pre><code>npm install</code></pre>
+            </li>
+            <li>Run the Client:
+                <pre><code>node index.js</code></pre>
+            </li>
+        </ol>
 
-## Example Usage
-Here's how you can set up the client with your API credentials:
-```javascript
-const chatClient = require('chat-api-client');
+        <hr>
+
+        <h3>Example Usage</h3>
+        <p>Here's how you can set up the client with your API credentials:</p>
+        <pre><code>const chatClient = require('chat-api-client');
 
 const client = new chatClient({
   apiKey: 'your-api-key',
@@ -61,18 +70,23 @@ const client = new chatClient({
 client.connect()
   .then(() => console.log('Connected to the Real-Time Chat API'))
   .catch(err => console.error('Connection failed:', err));
-```
----
-## Troubleshooting
+</code></pre>
 
-### Common Issues:
+        <hr>
 
-1. **Invalid API Credentials**:
-   - Ensure your API key and access token are correct.
-   - Double-check your credentials in the [Chat API Developer Portal](https://example.com).
+        <h3>Troubleshooting</h3>
+        <p>Here are some common issues and their solutions:</p>
+        <ul>
+            <li><strong>Invalid API Credentials:</strong> Ensure your API key and access token are correct. Double-check your credentials in the <a href="https://example.com">Chat API Developer Portal</a>.</li>
+            <li><strong>Connection Errors:</strong> Verify your network connection and check that the API service is up and running.</li>
+        </ul>
 
-2. **Connection Errors**:
-   - Verify your network connection.
-   - Check that the API service is up and running.
+        <p>For additional support, visit the <a href="https://example.com/support">API Support Page</a>.</p>
+    </main>
 
-For additional support, visit the [API Support Page](https://example.com/support).
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Gianpiero Fiorino. All rights reserved. | <a href="https://gfiorino.github.io/Technical-Writing-Portfolio/">Back to Portfolio</a></p>
+    </footer>
+</body>
+</html>
