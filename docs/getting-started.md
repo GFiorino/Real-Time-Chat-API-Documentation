@@ -1,9 +1,9 @@
 <!-- Navigation Menu -->
    <nav class="horizontal-menu">
-    <a href="docs/getting-started.html" class="active">Getting Started</a>
-    <a href="docs/endpoints.html">Endpoints</a>
+    <a href="../docs/getting-started.html" class="active">Getting Started</a>
+    <a href="../docs/endpoints.html">Endpoints</a>
     <a href="examples/integration-examples.html">Integration Examples</a>
-    <a href="docs/troubleshooting.html">Troubleshooting</a>
+    <a href="../docs/troubleshooting.html">Troubleshooting</a>
 </nav> 
 <link rel="stylesheet" href="../styles.css">
 # Getting Started
