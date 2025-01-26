@@ -1,8 +1,8 @@
 <!-- Navigation Menu -->
    <nav class="horizontal-menu">
-    <a href="../docs/getting-started.html" >Getting Started</a>
-    <a href="../docs/endpoints.html" >Endpoints</a>
-    <a href="../examples/integration-examples.html"class="active">Integration Examples</a>
+    <a href="../docs/getting-started.html">Getting Started</a>
+    <a href="../docs/endpoints.html">Endpoints</a>
+    <a href="../examples/integration-examples.html" class="active">Integration Examples</a>
     <a href="../docs/troubleshooting.html">Troubleshooting</a>
 </nav> 
 <link rel="stylesheet" href="../styles.css">
