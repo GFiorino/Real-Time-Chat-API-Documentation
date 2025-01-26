@@ -5,7 +5,8 @@
     <a href="docs/endpoints.html">Endpoints</a>
     <a href="examples/integration-examples.html">Integration Examples</a>
     <a href="docs/troubleshooting.html">Troubleshooting</a>
-</nav>
+</nav> 
+<link rel="stylesheet" href="../styles.css">
 # Getting Started
 
 Welcome to the Real-Time Chat API! This guide will help you set up and integrate the API into your project quickly.
