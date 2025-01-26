@@ -2,6 +2,7 @@
     <h1>Real-Time Chat API Documentation</h1>
     <p>Simplifying API Integration Through Clear and User-Friendly Documentation</p>
 </header>
+<link rel="stylesheet" href="../styles.css">
 <nav class="horizontal-menu">
     <a href="index.html">Introduction</a>
     <a href="getting-started.html" class="active">Getting Started</a>
