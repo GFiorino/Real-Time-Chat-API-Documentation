@@ -1,11 +1,12 @@
 <!-- Navigation Menu -->
-   <nav class="horizontal-menu">
+<link rel="stylesheet" href="../styles.css">
+<nav class="horizontal-menu">
     <a href="../docs/getting-started.html">Getting Started</a>
     <a href="../docs/endpoints.html" class="active">Endpoints</a>
     <a href="../examples/integration-examples.html">Integration Examples</a>
     <a href="../docs/troubleshooting.html">Troubleshooting</a>
 </nav> 
-<link rel="stylesheet" href="../styles.css">
+
 # API Endpoints
 
 This section provides detailed documentation for the available API endpoints in the Real-Time Chat API.
