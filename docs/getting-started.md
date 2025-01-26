@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Getting Started - Real-Time Chat API Documentation</title>
-    <link rel="stylesheet" href="../styles.css"> <!-- Correct path to the CSS file -->
+    <link rel="stylesheet" href="../styles.css"> <!-- Correct CSS file path -->
 </head>
 <body>
+    <!-- Header -->
     <header>
         <h1>Real-Time Chat API Documentation</h1>
         <p>Simplifying API Integration Through Clear and User-Friendly Documentation</p>
