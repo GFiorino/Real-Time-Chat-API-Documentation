@@ -12,22 +12,23 @@ body {
 
 /* Header */
 header {
-    background-color: #0056b3;
-    color: #fff;
+    background-color: #ffffff; /* White background */
+    color: #0056b3; /* Blue text color */
     text-align: center;
     padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow for a professional look */
 }
 
 header h1 {
     margin: 0;
-    font-size: 2rem;
+    font-size: 2rem; /* Adjust font size if needed */
+    color: #0056b3; /* Blue header text */
 }
 
 header p {
-    margin: 10px 0 0;
-    font-size: 1.2rem;
-    color: #d4e1f5;
+    margin: 5px 0 0;
+    font-size: 1rem;
+    color: #0056b3; /* Optional: lighter blue for subtext */
 }
 
 /* Navigation Menu */
