@@ -115,3 +115,29 @@ footer a {
     color: #ffdd57;
     text-decoration: underline;
 }
+.horizontal-menu {
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center;    /* Centers items vertically */
+    gap: 20px;              /* Adds horizontal spacing between the links */
+    padding: 10px;          /* Adds padding around the menu for better positioning */
+    background-color: #ffffff; /* Optional: If needed for contrast */
+    margin: 0 auto;         /* Centers the menu block */
+    list-style: none;       /* Removes bullet points (if any) */
+}
+
+.horizontal-menu a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #007bff;         /* Link color (blue) */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Adds a smooth hover effect */
+}
+
+.horizontal-menu a.active {
+    color: #28a745;         /* Green color for the active page */
+}
+
+.horizontal-menu a:hover {
+    color: #0056b3;         /* Darker blue when hovering */
+}
