@@ -1,6 +1,5 @@
-<header>
+___
   <p>Simplifying API Integration Through Clear and User-Friendly Documentation</p>
-</header>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
