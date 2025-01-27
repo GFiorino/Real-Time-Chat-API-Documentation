@@ -1,7 +1,8 @@
 <p>Simplifying API Integration Through Clear and User-Friendly Documentation</p>
 ___
-
-    <link rel="stylesheet" href="../styles.css"><!-- Navigation Menu -->
+<link rel="stylesheet" href="../styles.css">
+    
+    <!-- Navigation Menu -->
    <nav class="horizontal-menu">
     <a href="index.html" >Introduction</a>  
     <a href="../docs/getting-started.html">Getting Started</a>
