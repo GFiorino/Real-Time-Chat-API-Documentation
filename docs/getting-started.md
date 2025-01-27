@@ -6,9 +6,9 @@
 </head>
 <body>
     <!-- Header -->
-    <header>
+    ---
        <h2>Simplifying API Integration Through Clear and User-Friendly Documentation</h2>
-    </header>
+   
 
     <!-- Navigation Menu -->
     <nav class="horizontal-menu">
