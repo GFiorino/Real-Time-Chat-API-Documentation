@@ -10,12 +10,13 @@
 <body>
   <!-- Navigation Menu -->
     <nav class="horizontal-menu">
-<a href="../index.html">Introduction</a>
-<a href="/docs/getting-started.html">Getting Started</a>
-<a href="/docs/endpoints.html">Endpoints</a>
-<a href="/examples/integration-examples.html">Integration Examples</a>
-<a href="/docs/troubleshooting.html">Troubleshooting</a>
-    </nav>
+<nav class="horizontal-menu">
+    <a href="../index.html" >Introduction</a>  
+    <a href="../docs/getting-started.html"class="active">Getting Started</a>
+    <a href="../docs/endpoints.html" >Endpoints</a>
+    <a href="../examples/integration-examples.html">Integration Examples</a>
+    <a href="../docs/troubleshooting.html">Troubleshooting</a>
+</nav>    
    <!-- Main Content -->
     <main class="content">
         <h2>Getting Started</h2>
