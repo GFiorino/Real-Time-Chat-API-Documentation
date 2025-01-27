@@ -49,13 +49,24 @@ header p {
     box-sizing: border-box;
 }
 
+.horizontal-menu {
+    display: flex;
+    justify-content: center; /* Centers the menu items */
+    gap: 15px; /* Space between menu items */
+}
+
 .horizontal-menu a {
     text-decoration: none;
     font-size: 18px;
     color: #007bff; /* Blue color */
     font-weight: bold;
-    padding: 5px 10px; /* Compact padding */
+    padding: 10px 20px; /* Adds consistent padding */
     transition: all 0.3s ease; /* Smooth hover and focus effect */
+    text-align: center; /* Centers text in case of multi-line items */
+    background-color: #ffffff; /* White background for consistency */
+    border-radius: 6px; /* Rounded edges for consistency */
+    width: 160px; /* Set consistent width for all menu items */
+    box-sizing: border-box; /* Ensures padding is included in the width */
 }
 
 .horizontal-menu a.active {
