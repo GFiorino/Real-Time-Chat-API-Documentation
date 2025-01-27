@@ -36,15 +36,15 @@ header p {
 /* Navigation Menu */
 .horizontal-menu {
     display: flex;
-    justify-content: center; /* Centers the menu */
+    justify-content: center; /* Centers items horizontally */
     align-items: center; /* Centers items vertically */
     gap: 20px; /* Adds spacing between the links */
-    padding: 10px 20px; /* Balanced padding for menu box */
-    background-color: #ffffff; /* Matches the header */
-    margin: 20px auto; /* Centers the menu block */
+    padding: 10px 20px; /* Reduced padding for a more proportionate box */
+    background-color: #ffffff; /* White background */
+    margin: 20px auto; /* Adds vertical spacing and centers the menu block */
     max-width: 1200px; /* Consistent width across pages */
-    height: 50px; /* Adjusted height for a proportionate look */
-    border-radius: 8px; /* Subtle rounded corners */
+    height: 50px; /* Adjusted height for proportionate box */
+    border-radius: 8px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
     box-sizing: border-box; /* Includes padding in width calculation */
 }
@@ -52,10 +52,10 @@ header p {
 .horizontal-menu a {
     text-decoration: none;
     font-size: 18px;
-    color: #007bff; /* Blue color */
+    color: #007bff; /* Link color (blue) */
     font-weight: bold;
-    padding: 5px 10px; /* Compact padding */
-    transition: color 0.3s ease; /* Smooth hover effect */
+    padding: 5px 10px; /* Reduced padding for a more compact look */
+    transition: color 0.3s ease; /* Adds a smooth hover effect */
 }
 
 .horizontal-menu a.active {
@@ -63,7 +63,7 @@ header p {
 }
 
 .horizontal-menu a:hover {
-    color: #0056b3; /* Darker blue for hover */
+    color: #0056b3; /* Darker blue when hovering */
 }
 
 /* Main Content */
