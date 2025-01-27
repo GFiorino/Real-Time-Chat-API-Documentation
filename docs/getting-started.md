@@ -10,7 +10,6 @@
 <body>
   <!-- Navigation Menu -->
     <nav class="horizontal-menu">
-        <a href="../index.html">Introduction</a>
         <a href="getting-started.html" class="active">Getting Started</a>
         <a href="endpoints.html">Endpoints</a>
         <a href="../examples/integration-examples.html">Integration Examples</a>
