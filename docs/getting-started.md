@@ -1,5 +1,4 @@
-<h3>Simplifying API Integration Through Clear and User-Friendly Documentation</h3>
-___
+<p>Simplifying API Integration Through Clear and User-Friendly Documentation</p>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
