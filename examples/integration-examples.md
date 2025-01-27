@@ -1,5 +1,5 @@
 <p>Simplifying API Integration Through Clear and User-Friendly Documentation</p>
----
+
 
 <link rel="stylesheet" href="../styles.css">
  <nav class="horizontal-menu">
