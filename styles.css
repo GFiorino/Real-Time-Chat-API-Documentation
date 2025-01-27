@@ -15,22 +15,20 @@ header {
     background-color: #ffffff; /* White background */
     color: #0056b3; /* Blue text color */
     text-align: center;
-    padding: 40px 20px; /* Adjusted padding for a professional look */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
-    border-bottom: 2px solid #e0e0e0; /* Subtle border for separation */
+    padding: 30px 20px; /* Increased padding for spacing */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow for a professional look */
 }
 
 header h1 {
     margin: 0;
-    font-size: 2.8rem; /* Prominent title font size */
-    font-weight: bold; /* Emphasized header text */
-    color: #0056b3; /* Blue color */
+    font-size: 2.5rem; /* Slightly larger for prominence */
+    color: #0056b3; /* Blue header text */
 }
 
 header p {
     margin: 10px 0 0;
-    font-size: 1.2rem; /* Slightly larger for better readability */
-    color: #333; /* Neutral text color for contrast */
+    font-size: 1.2rem; /* Slightly larger subtext */
+    color: #0056b3; /* Optional: lighter blue for subtext */
 }
 
 /* Navigation Menu */
@@ -69,64 +67,70 @@ header p {
 /* Main Content */
 .content {
     flex: 1;
-    margin: 30px auto; /* Centers content */
-    max-width: 1200px; /* Restricts content width */
-    padding: 20px; /* Padding for spacing */
+    margin: 30px auto; /* Adjusted margin for closer placement */
+    max-width: 1200px;
+    padding: 20px;
 }
 
 /* Card */
 .card {
     display: flex;
-    align-items: center; /* Aligns items vertically */
-    background-color: #ffffff;
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    padding: 30px; /* Adds spacing inside the card */
-    margin: 20px auto; /* Centers the card */
-    max-width: 1000px; /* Restricts width for better layout */
-    width: 85%; /* Responsive width */
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
 }
 
 .card-image {
     flex: 1;
-    max-width: 40%; /* Restricts image width */
-    padding: 10px; /* Adds spacing around the image */
+    padding: 10px;
 }
 
 .card-image img {
     max-width: 100%;
     height: auto;
-    border-radius: 10px; /* Rounded image corners */
+    border-radius: 10px;
 }
 
 .card-content {
     flex: 2;
-    padding: 10px 20px; /* Adds spacing inside the content */
-    text-align: left; /* Aligns text to the left */
+    padding: 10px 20px;
 }
 
 .card-content h2 {
-    color: #0056b3; /* Matches header color */
-    margin-bottom: 10px; /* Adds spacing below the title */
+    color: #0056b3;
 }
 
-.card-content p {
-    margin: 10px 0; /* Adds spacing between paragraphs */
+.card-content ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+/* Code Snippets */
+pre {
+    background-color: #f4f4f4; /* Light grey background for contrast */
+    border: 1px solid #ddd; /* Subtle border for definition */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Adds padding inside the code block */
+    font-size: 0.95rem; /* Slightly smaller text */
+    font-family: 'Courier New', Courier, monospace; /* Monospace font for readability */
+    overflow-x: auto; /* Ensures horizontal scrolling for long code */
+    margin: 20px 0; /* Adds spacing above and below */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: shadow for emphasis */
 }
 
 /* Footer */
 footer {
     text-align: center;
-    background-color: #ffffff; /* White background */
-    color: #333; /* Neutral text color */
+    background-color: #0056b3;
+    color: #fff;
     padding: 20px 0;
     font-size: 0.9rem;
-    border-top: 2px solid #e0e0e0; /* Subtle border for separation */
-    margin-top: auto; /* Pushes footer to the bottom */
+    border-top: 4px solid #004080;
+    margin-top: auto; /* Ensures footer sticks to the bottom */
 }
 
 footer a {
-    color: #0056b3; /* Matches header link color */
+    color: #ffdd57;
     text-decoration: underline;
-    font-weight: bold;
 }
