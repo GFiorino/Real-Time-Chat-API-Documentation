@@ -67,7 +67,7 @@ header p {
 /* Main Content */
 .content {
     flex: 1;
-    margin: 50px auto; /* Moves content further down */
+    margin: 30px auto; /* Adjusted margin for closer placement */
     max-width: 1200px;
     padding: 20px;
 }
@@ -75,22 +75,22 @@ header p {
 /* Card */
 .card {
     display: flex;
-    flex-direction: row; /* Image on the left and text on the right */
+    flex-direction: row; /* Ensures image on the left and text on the right */
     align-items: center; /* Centers content inside the card */
     justify-content: space-between; /* Distributes image and text evenly */
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    padding: 30px; /* Adds sufficient padding inside the card */
-    margin: 30px auto; /* Centers the card and adds spacing */
-    max-width: 1000px; /* Adjusted width for a balanced rectangular shape */
+    padding: 40px; /* Increased padding for better spacing */
+    margin: 20px auto; /* Brought card closer to the menu */
+    max-width: 1100px; /* Slightly wider for more content space */
     text-align: left;
-    width: 80%; /* Ensures responsiveness */
+    width: 85%; /* Ensures responsiveness while increasing size */
 }
 
 .card-image {
     flex: 1;
-    max-width: 40%; /* Restricts image size to fit nicely */
+    max-width: 35%; /* Slightly reduced image width for better balance */
     padding: 10px;
 }
 
