@@ -1,5 +1,6 @@
 <!-- Navigation Menu -->
    <nav class="horizontal-menu">
+    <a href="index.html" >Introduction</a>  
     <a href="../docs/getting-started.html" >Getting Started</a>
     <a href="../docs/endpoints.html" >Endpoints</a>
     <a href="../examples/integration-examples.html">Integration Examples</a>
