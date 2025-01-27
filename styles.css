@@ -32,31 +32,20 @@ header p {
 }
 
 /* Navigation Menu */
+/* Navigation Menu */
 .horizontal-menu {
-    background-color: #f9f9f9;
-    border-bottom: 2px solid #e0e0e0;
-    display: flex;
-    justify-content: center;
-    padding: 10px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.horizontal-menu a {
-    margin: 0 15px;
-    text-decoration: none;
-    color: #0056b3;
-    font-weight: bold;
-    padding: 5px 10px;
-    transition: all 0.3s ease;
-}
-
-.horizontal-menu a:hover {
-    color: #002c70;
-}
-
-.horizontal-menu a.active {
-    color: #28a745;
-    font-weight: bold;
+    display: flex; /* Ensures links are aligned in a row */
+    justify-content: center; /* Centers the links horizontally */
+    align-items: center; /* Centers the links vertically */
+    gap: 20px; /* Adds space between links */
+    background-color: #ffffff; /* White background */
+    padding: 10px 20px; /* Adds padding around the menu */
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 1200px; /* Fixes the maximum width */
+    margin: 0 auto; /* Centers the menu on the page */
+    width: 100%; /* Ensures it spans the full width within constraints */
+    box-sizing: border-box; /* Ensures padding is included in the width */
 }
 
 /* Main Content */
