@@ -6,8 +6,8 @@
 </head>
 <body>
     <!-- Header -->
-    ---
-       <h2>Simplifying API Integration Through Clear and User-Friendly Documentation</h2>
+    
+       <p>Simplifying API Integration Through Clear and User-Friendly Documentation</p>
    
 
     <!-- Navigation Menu -->
