@@ -1,6 +1,12 @@
 <p>Simplifying API Integration Through Clear and User-Friendly Documentation</p>
----
-<!-- Navigation Menu -->
+___
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getting Started - Real-Time Chat API Documentation</title>
+    <link rel="stylesheet" href="../styles.css"><!-- Navigation Menu -->
    <nav class="horizontal-menu">
     <a href="index.html" >Introduction</a>  
     <a href="../docs/getting-started.html">Getting Started</a>
