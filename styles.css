@@ -37,7 +37,7 @@ header p {
     justify-content: center; /* Centers items horizontally */
     align-items: center; /* Centers items vertically */
     gap: 20px; /* Adds spacing between the links */
-    padding: 15px 20px; /* Adds padding around the menu */
+    padding: 10px 20px; /* Reduced padding for a more proportionate box */
     background-color: #ffffff; /* White background */
     margin: 20px auto; /* Adds vertical spacing and centers the menu block */
     max-width: 1200px; /* Consistent width across pages */
@@ -51,7 +51,7 @@ header p {
     font-size: 18px;
     color: #007bff; /* Link color (blue) */
     font-weight: bold;
-    padding: 10px 15px; /* Consistent padding around links */
+    padding: 5px 10px; /* Reduced padding for a more compact look */
     transition: color 0.3s ease; /* Adds a smooth hover effect */
 }
 
@@ -74,16 +74,17 @@ header p {
 /* Card */
 .card {
     display: flex;
-    align-items: center;
+    flex-direction: column; /* Ensures content stacks for better alignment */
+    align-items: center; /* Centers content inside the card */
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    padding: 30px; /* Adds more padding for a centered look */
+    padding: 30px; /* Adds sufficient padding inside the card */
     margin: 30px auto; /* Centers the card and adds spacing */
-    max-width: 800px; /* Optional: Sets a maximum width for the card */
+    max-width: 1000px; /* Increased width for better presentation */
     text-align: center;
+    width: 80%; /* Ensures responsiveness */
 }
-
 .card-image {
     flex: 1;
     padding: 10px;
