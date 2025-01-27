@@ -1,4 +1,5 @@
-<!-- Navigation Menu -->
+<p>Simplifying API Integration Through Clear and User-Friendly Documentation</p>
+___<!-- Navigation Menu -->
    <nav class="horizontal-menu">
     <a href="../index.html" >Introduction</a>  
     <a href="../docs/getting-started.html" >Getting Started</a>
