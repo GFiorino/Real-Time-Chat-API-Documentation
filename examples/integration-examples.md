@@ -1,5 +1,5 @@
 <p>Simplifying API Integration Through Clear and User-Friendly Documentation</p>
-___
+---
 
 <link rel="stylesheet" href="../styles.css">
  <!-- Navigation Menu -->
