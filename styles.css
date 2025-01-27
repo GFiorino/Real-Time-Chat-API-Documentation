@@ -52,10 +52,14 @@ header p {
 .horizontal-menu a {
     text-decoration: none;
     font-size: 18px;
-    color: #007bff; /* Blue color */
+    color: #007bff; /* Link color */
     font-weight: bold;
-    padding: 5px 10px; /* Compact padding */
+    padding: 5px 15px; /* Uniform padding */
+    margin: 0; /* Reset any external margin */
     transition: color 0.3s ease; /* Smooth hover effect */
+    display: inline-block; /* Ensures consistent box dimensions */
+    box-sizing: border-box; /* Includes padding in width calculations */
+
 }
 
 .horizontal-menu a.active {
