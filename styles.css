@@ -156,3 +156,10 @@ footer a:hover {
     text-decoration: none;
 }
 
+.header-subtitle {
+    color: #007bff; /* Light blue color */
+    font-size: 1.2rem; /* Match the size in the header */
+    font-weight: 400; /* Regular font weight for a professional look */
+    margin: 0; /* Remove extra margins */
+    text-align: center; /* Center-align the text */
+}
