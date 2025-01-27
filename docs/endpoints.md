@@ -1,4 +1,3 @@
-
 <p class="header-subtitle">Simplifying API Integration Through Clear and User-Friendly Documentation</p>
 <!-- Navigation Menu -->
 <link rel="stylesheet" href="../styles.css">
