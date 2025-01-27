@@ -1,6 +1,7 @@
 <!-- Navigation Menu -->
 <link rel="stylesheet" href="../styles.css">
 <nav class="horizontal-menu">
+    <a href="index.html" >Introduction</a>  
     <a href="../docs/getting-started.html">Getting Started</a>
     <a href="../docs/endpoints.html" class="active">Endpoints</a>
     <a href="../examples/integration-examples.html">Integration Examples</a>
