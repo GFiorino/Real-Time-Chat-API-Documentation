@@ -1,6 +1,6 @@
 /* General Styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif; /* Added Roboto for modern typography */
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
@@ -12,125 +12,146 @@ body {
 
 /* Header */
 header {
-    background-color: #ffffff; /* White background */
-    color: #0056b3; /* Blue text color */
+    background-color: #ffffff;
+    color: #0056b3; /* Professional blue color */
     text-align: center;
-    padding: 40px 20px; /* Adjusted padding for a professional look */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
-    border-bottom: 2px solid #e0e0e0; /* Subtle border for separation */
+    padding: 30px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-bottom: 10px; /* Adds whitespace between the header and the menu */
 }
 
 header h1 {
     margin: 0;
-    font-size: 2.8rem; /* Prominent title font size */
-    font-weight: bold; /* Emphasized header text */
-    color: #0056b3; /* Blue color */
+    font-size: 2.5rem; /* Prominent font size */
+    color: #0056b3;
+    font-weight: bold;
 }
 
 header p {
     margin: 10px 0 0;
-    font-size: 1.2rem; /* Slightly larger for better readability */
-    color: #333; /* Neutral text color for contrast */
+    font-size: 1.2rem;
+    color: #4a90e2; /* Slightly lighter blue for subtext differentiation */
 }
 
 /* Navigation Menu */
 .horizontal-menu {
     display: flex;
-    justify-content: center; /* Centers the menu */
-    align-items: center; /* Centers items vertically */
-    gap: 20px; /* Adds spacing between the links */
-    padding: 10px 20px; /* Balanced padding for menu box */
-    background-color: #ffffff; /* Matches the header */
-    margin: 20px auto; /* Centers the menu block */
-    max-width: 1200px; /* Consistent width across pages */
-    height: 50px; /* Adjusted height for a proportionate look */
-    border-radius: 8px; /* Subtle rounded corners */
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 50px; /* Consistent height for proportionate box */
+    border-radius: 8px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    box-sizing: border-box; /* Includes padding in width calculation */
+    box-sizing: border-box;
 }
 
 .horizontal-menu a {
     text-decoration: none;
     font-size: 18px;
-    color: #007bff; /* Link color */
+    color: #007bff; /* Blue color */
     font-weight: bold;
-    padding: 5px 15px; /* Uniform padding */
-    margin: 0; /* Reset any external margin */
-    transition: color 0.3s ease; /* Smooth hover effect */
-    display: inline-block; /* Ensures consistent box dimensions */
-    box-sizing: border-box; /* Includes padding in width calculations */
-
+    padding: 5px 10px; /* Compact padding */
+    transition: all 0.3s ease; /* Smooth hover and focus effect */
 }
 
 .horizontal-menu a.active {
-    color: #28a745; /* Green color for the active page */
+    color: #28a745; /* Green for active state */
+    background-color: #f1f9f1; /* Light green background for active state */
+    border-radius: 6px; /* Rounded for active link */
 }
 
 .horizontal-menu a:hover {
-    color: #0056b3; /* Darker blue for hover */
+    color: #0056b3; /* Darker blue when hovering */
 }
 
 /* Main Content */
 .content {
     flex: 1;
-    margin: 30px auto; /* Centers content */
-    max-width: 1200px; /* Restricts content width */
-    padding: 20px; /* Padding for spacing */
+    margin: 30px auto; /* Adjusted margin for closer placement */
+    max-width: 1200px;
+    padding: 20px;
 }
 
 /* Card */
 .card {
     display: flex;
-    align-items: center; /* Aligns items vertically */
-    background-color: #ffffff;
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    padding: 30px; /* Adds spacing inside the card */
-    margin: 20px auto; /* Centers the card */
-    max-width: 1000px; /* Restricts width for better layout */
-    width: 85%; /* Responsive width */
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px; /* Comfortable padding */
+    margin: 20px auto; /* Consistent vertical spacing */
+    max-width: 1000px; /* Adjust width for balanced layout */
+    text-align: left; /* Aligns text on the left */
 }
 
 .card-image {
     flex: 1;
-    max-width: 40%; /* Restricts image width */
-    padding: 10px; /* Adds spacing around the image */
+    padding: 10px;
 }
 
 .card-image img {
     max-width: 100%;
     height: auto;
-    border-radius: 10px; /* Rounded image corners */
+    border-radius: 10px;
 }
 
 .card-content {
     flex: 2;
-    padding: 10px 20px; /* Adds spacing inside the content */
-    text-align: left; /* Aligns text to the left */
+    padding: 20px; /* More spacing for readability */
 }
 
 .card-content h2 {
-    color: #0056b3; /* Matches header color */
-    margin-bottom: 10px; /* Adds spacing below the title */
+    color: #0056b3;
+    margin-bottom: 10px; /* Adds spacing below the heading */
 }
 
-.card-content p {
-    margin: 10px 0; /* Adds spacing between paragraphs */
+.card-content ul {
+    padding-left: 20px;
+    list-style-type: disc;
+    line-height: 1.6; /* Improves readability */
+}
+
+/* Code Snippets */
+pre {
+    background-color: #f4f4f4; /* Light grey background for contrast */
+    border: 1px solid #ddd; /* Subtle border for definition */
+    border-radius: 8px;
+    padding: 15px;
+    font-size: 0.95rem;
+    font-family: 'Courier New', Courier, monospace;
+    overflow-x: auto;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for emphasis */
+    line-height: 1.5; /* Improves readability in code blocks */
+    color: #333; /* Text color */
+}
+
+code {
+    color: #d6336c; /* Adds color contrast for inline code */
 }
 
 /* Footer */
 footer {
     text-align: center;
     background-color: #ffffff; /* White background */
-    color: #333; /* Neutral text color */
+    color: #333; /* Dark grey for text */
     padding: 20px 0;
     font-size: 0.9rem;
-    border-top: 2px solid #e0e0e0; /* Subtle border for separation */
-    margin-top: auto; /* Pushes footer to the bottom */
+    border-top: 4px solid #ddd; /* Light grey border for separation */
+    margin-top: auto;
 }
 
 footer a {
-    color: #0056b3; /* Matches header link color */
+    color: #007bff;
     text-decoration: underline;
-    font-weight: bold;
+}
+
+footer a:hover {
+    color: #0056b3;
+    text-decoration: none;
 }
