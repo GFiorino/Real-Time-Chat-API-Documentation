@@ -41,6 +41,7 @@ header p {
     background-color: #ffffff; /* White background */
     margin: 20px auto; /* Adds vertical spacing and centers the menu block */
     max-width: 1200px; /* Consistent width across pages */
+    height: 50px; /* Adjusted height for proportionate box */
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
     box-sizing: border-box; /* Includes padding in width calculation */
@@ -74,19 +75,22 @@ header p {
 /* Card */
 .card {
     display: flex;
-    flex-direction: column; /* Ensures content stacks for better alignment */
+    flex-direction: row; /* Image on the left and text on the right */
     align-items: center; /* Centers content inside the card */
+    justify-content: space-between; /* Distributes image and text evenly */
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     padding: 30px; /* Adds sufficient padding inside the card */
     margin: 30px auto; /* Centers the card and adds spacing */
-    max-width: 1000px; /* Increased width for better presentation */
-    text-align: center;
+    max-width: 1000px; /* Adjusted width for a balanced rectangular shape */
+    text-align: left;
     width: 80%; /* Ensures responsiveness */
 }
+
 .card-image {
     flex: 1;
+    max-width: 40%; /* Restricts image size to fit nicely */
     padding: 10px;
 }
 
@@ -103,6 +107,7 @@ header p {
 
 .card-content h2 {
     color: #0056b3;
+    margin-bottom: 15px;
 }
 
 .card-content ul {
