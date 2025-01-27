@@ -1,6 +1,6 @@
 /* General Styling */
 body {
-    font-family: 'Roboto', Arial, sans-serif; /* Added Roboto for modern typography */
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
@@ -13,24 +13,22 @@ body {
 /* Header */
 header {
     background-color: #ffffff;
-    color: #0056b3; /* Professional blue color */
+    color: #0056b3;
     text-align: center;
     padding: 30px 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    margin-bottom: 10px; /* Adds whitespace between the header and the menu */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
     margin: 0;
-    font-size: 2.5rem; /* Prominent font size */
+    font-size: 2.5rem;
     color: #0056b3;
-    font-weight: bold;
 }
 
 header p {
     margin: 10px 0 0;
     font-size: 1.2rem;
-    color: #4a90e2; /* Slightly lighter blue for subtext differentiation */
+    color: #0056b3;
 }
 
 /* Navigation Menu */
@@ -41,117 +39,50 @@ header p {
     gap: 20px;
     padding: 10px 20px;
     background-color: #ffffff;
-    margin: 0 auto;
-    max-width: 1200px;
-    height: 50px; /* Consistent height for proportionate box */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 0 auto; /* Ensures consistent centering */
+    max-width: 1200px; /* Fixed max width */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
 }
 
 .horizontal-menu a {
     text-decoration: none;
     font-size: 18px;
-    color: #007bff; /* Blue color */
+    color: #007bff;
     font-weight: bold;
-    padding: 5px 10px; /* Compact padding */
-    transition: all 0.3s ease; /* Smooth hover and focus effect */
+    padding: 5px 10px;
+    transition: color 0.3s ease;
 }
 
 .horizontal-menu a.active {
-    color: #28a745; /* Green for active state */
-    background-color: #f1f9f1; /* Light green background for active state */
-    border-radius: 6px; /* Rounded for active link */
+    color: #28a745;
 }
 
 .horizontal-menu a:hover {
-    color: #0056b3; /* Darker blue when hovering */
+    color: #0056b3;
 }
 
 /* Main Content */
 .content {
     flex: 1;
-    margin: 30px auto; /* Adjusted margin for closer placement */
-    max-width: 1200px;
+    margin: 20px auto;
+    max-width: 1200px; /* Same as nav menu */
     padding: 20px;
-}
-
-/* Card */
-.card {
-    display: flex;
-    align-items: center;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    padding: 30px; /* Comfortable padding */
-    margin: 20px auto; /* Consistent vertical spacing */
-    max-width: 1000px; /* Adjust width for balanced layout */
-    text-align: left; /* Aligns text on the left */
-}
-
-.card-image {
-    flex: 1;
-    padding: 10px;
-}
-
-.card-image img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
-.card-content {
-    flex: 2;
-    padding: 20px; /* More spacing for readability */
-}
-
-.card-content h2 {
-    color: #0056b3;
-    margin-bottom: 10px; /* Adds spacing below the heading */
-}
-
-.card-content ul {
-    padding-left: 20px;
-    list-style-type: disc;
-    line-height: 1.6; /* Improves readability */
-}
-
-/* Code Snippets */
-pre {
-    background-color: #f4f4f4; /* Light grey background for contrast */
-    border: 1px solid #ddd; /* Subtle border for definition */
-    border-radius: 8px;
-    padding: 15px;
-    font-size: 0.95rem;
-    font-family: 'Courier New', Courier, monospace;
-    overflow-x: auto;
-    margin: 20px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for emphasis */
-    line-height: 1.5; /* Improves readability in code blocks */
-    color: #333; /* Text color */
-}
-
-code {
-    color: #d6336c; /* Adds color contrast for inline code */
+    box-sizing: border-box;
 }
 
 /* Footer */
 footer {
     text-align: center;
-    background-color: #ffffff; /* White background */
-    color: #333; /* Dark grey for text */
+    background-color: #ffffff; /* Changed to white as requested */
+    color: #0056b3;
     padding: 20px 0;
     font-size: 0.9rem;
-    border-top: 4px solid #ddd; /* Light grey border for separation */
     margin-top: auto;
 }
 
 footer a {
     color: #007bff;
     text-decoration: underline;
-}
-
-footer a:hover {
-    color: #0056b3;
-    text-decoration: none;
 }
