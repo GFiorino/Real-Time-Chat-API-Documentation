@@ -7,7 +7,7 @@
 <body>
     <!-- Header -->
     <header>
-       <p>Simplifying API Integration Through Clear and User-Friendly Documentation</p>
+       <h2>Simplifying API Integration Through Clear and User-Friendly Documentation</h2>
     </header>
 
     <!-- Navigation Menu -->
