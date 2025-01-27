@@ -1,4 +1,4 @@
-<p>Simplifying API Integration Through Clear and User-Friendly Documentation</p>
+<h3>Simplifying API Integration Through Clear and User-Friendly Documentation</h3>
 ___
 <html lang="en">
 <head>
