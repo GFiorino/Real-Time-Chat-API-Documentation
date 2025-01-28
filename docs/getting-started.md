@@ -70,10 +70,16 @@ client.connect()
         </ul>
         <p>For additional support, visit the <a href="https://example.com/support">API Support Page</a>.</p>
     </main>
-
-    <!-- Footer -->
-    <footer>
-        <p>© 2025 Gianpiero Fiorino. All rights reserved. | <a href="https://gfiorino.github.io/Technical-Writing-Portfolio/">Back to Portfolio</a></p>
-    </footer>
+<!-- Unified Footer -->
+<footer class="site-footer" style="background-color: #f4f4f4; padding: 30px 20px; border-top: 2px solid #ddd; text-align: center; font-size: 0.95rem; color: #333;">
+  <div style="margin-bottom: 20px;">
+      <p style="margin: 5px 0; font-weight: bold;">Explore My Projects:</p>
+      <a href="https://github.com/GFiorino" target="_blank" style="display: inline-block; margin: 5px 10px; padding: 10px 15px; color: #fff; background-color: #0056b3; text-decoration: none; border-radius: 5px; font-size: 0.9rem; font-weight: bold; transition: background-color 0.3s ease;">
+          GitHub Repository
+      </a>
+  </div>
+  <p style="margin: 5px 0;">&copy; 2024 Chat API Documentation. All rights reserved.</p>
+</footer>
+   
 </body>
 </html>
