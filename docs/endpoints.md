@@ -117,3 +117,10 @@ This section provides detailed documentation for the available API endpoints in 
   - `400`: Invalid request body
 
 For additional information, refer to the API Support Page.
+<!-- Footer -->
+<footer style="background-color: #f4f4f4; padding: 20px; text-align: center; font-size: 0.9rem; color: #333; border-top: 1px solid #ddd;">
+  <p style="margin: 0;">&copy; 2025 Gianpiero Fiorino. All rights reserved.</p>
+  <p style="margin: 5px 0;">
+    <a href="https://gfiorino.github.io/Technical-Writing-Portfolio/" style="color: #0056b3; text-decoration: none; font-weight: bold;">Back to Portfolio</a>
+  </p>
+</footer>
