@@ -8,8 +8,6 @@
     <!-- Header -->
     
 <p class="header-subtitle">Simplifying API Integration Through Clear and User-Friendly Documentation</p>
-   
-
     <!-- Navigation Menu -->
     <nav class="horizontal-menu">
         <a href="../index.html">Introduction</a>
@@ -18,8 +16,7 @@
         <a href="../examples/integration-examples.html">Integration Examples</a>
         <a href="troubleshooting.html">Troubleshooting</a>
     </nav>
-
-    <!-- Main Content -->
+ <!-- Main Content -->
     <main class="content">
         <h2>Getting Started</h2>
         <p>Welcome to the Real-Time Chat API! This guide will help you set up and integrate the API into your project quickly.</p>
@@ -70,16 +67,13 @@ client.connect()
         </ul>
         <p>For additional support, visit the <a href="https://example.com/support">API Support Page</a>.</p>
     </main>
-<!-- Unified Footer -->
-<footer class="site-footer" style="background-color: #f4f4f4; padding: 30px 20px; border-top: 2px solid #ddd; text-align: center; font-size: 0.95rem; color: #333;">
-  <div style="margin-bottom: 20px;">
-      <p style="margin: 5px 0; font-weight: bold;">Explore My Projects:</p>
-      <a href="https://github.com/GFiorino" target="_blank" style="display: inline-block; margin: 5px 10px; padding: 10px 15px; color: #fff; background-color: #0056b3; text-decoration: none; border-radius: 5px; font-size: 0.9rem; font-weight: bold; transition: background-color 0.3s ease;">
-          GitHub Repository
-      </a>
-  </div>
-  <p style="margin: 5px 0;">&copy; 2024 Chat API Documentation. All rights reserved.</p>
+<!-- Footer -->
+<footer style="background-color: #f4f4f4; padding: 20px; text-align: center; font-size: 0.9rem; color: #333; border-top: 1px solid #ddd;">
+  <p style="margin: 0;">&copy; 2025 Gianpiero Fiorino. All rights reserved.</p>
+  <p style="margin: 5px 0;">
+    <a href="https://gfiorino.github.io/Technical-Writing-Portfolio/" style="color: #0056b3; text-decoration: none; font-weight: bold;">Back to Portfolio</a>
+  </p>
 </footer>
-   
+
 </body>
 </html>
